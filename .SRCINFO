@@ -1,0 +1,21 @@
+pkgbase = djumbo
+	pkgdesc = tools bundle with Qt GUI - CsappCalc CacheAway Jangaehwepi ...
+	pkgver = 1
+	pkgrel = 1
+	url = https://github.com/Un1Gfn/djumbo
+	arch = x86_64
+	license = AGPL-3.0-or-later
+	makedepends = cmake
+	depends = gcc-libs
+	depends = glibc
+	depends = qt6-base
+	options = !strip
+	options = libtool
+	options = staticlibs
+	options = emptydirs
+	options = !zipman
+	options = !debug
+	options = !lto
+	options = !purge
+
+pkgname = djumbo
